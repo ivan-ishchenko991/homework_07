@@ -6,5 +6,5 @@ setup(name = 'clean_folder',
       author='Ivan Ishchenko',
       author_email='lvan.lshchenko19.01@gmail.com',
       packages=find_namespace_packages(),
-      entry_points={"console_scripts": ['clean-folder=clean_folder.clean:sorting, normalize, remove_empty_dirs']}
+      entry_points={"console_scripts": ['clean-folder=clean_folder.clean:sorting']}
       )
